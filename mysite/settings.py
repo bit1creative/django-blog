@@ -25,7 +25,7 @@ SECRET_KEY = '!n=j+fubc=5@znv%v$y64w058j*xlu1rqwq2+zdmdyc$r22+u='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bit1creative.pythonanywhere.com']
+ALLOWED_HOSTS = ['bit1creative.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
