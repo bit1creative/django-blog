@@ -8,6 +8,11 @@
             </div>
         {% endif %}
         <h1>{{ post.title }}</h1>
+        {% if post.picture %}
+            <div class="pic">
+                <img src = "{{ post.picture.url }}">
+            </div>
+        {% endif %}
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endblock %}

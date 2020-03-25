@@ -10,6 +10,12 @@
     text-decoration: none;
 }
 
+.top-menu > .glyphicon.glyphicon-plus {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
 .content {
     margin-left: 40px;
 }
